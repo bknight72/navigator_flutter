@@ -5,3 +5,5 @@ App I made in part of a udemy course in learning Flutter. the purpose of this wa
 ## Final product 
 
 ![image](https://user-images.githubusercontent.com/79337953/130533953-0f03ed63-e364-41c4-99ae-356ab0590489.png)
+
+Also worth noting that some of the code in the original repo was depricated so I went ahead and updated that. 
