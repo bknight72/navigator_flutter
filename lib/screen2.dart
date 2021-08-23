@@ -7,12 +7,22 @@ class Screen2 extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue,
         title: Text('Screen 2'),
+        elevation: 0.0,
       ),
       body: Center(
-        child: RaisedButton(
-          color: Colors.blue,
-          child: Text('Go Back To Screen 1'),
-          onPressed: () {},
+        child: ElevatedButton(
+          style: ElevatedButton.styleFrom(
+            primary: Colors.blue,
+          ),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+          child: Text(
+            'Pop this screen',
+            style: TextStyle(
+              color: Colors.white,
+            ),
+          ),
         ),
       ),
     );
